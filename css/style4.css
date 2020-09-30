@@ -1,0 +1,145 @@
+body, p, div, h1, h2, h3, h4, h5, h6, ul, li{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+.full-widht{
+    width: 100;
+}
+.widht980{
+    width:1100px;
+    margin: 0 auto;
+}
+.main{
+    width:1100px;
+    background-color: chartreuse;
+    margin: 0 auto;
+}
+
+
+.header{
+    height: 87px;
+}
+
+.content{
+    background-color: green;
+}
+
+.footer{
+    background-color: blueviolet;
+    min-height: 150px;
+
+}
+
+.header-left{
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 26px;
+}
+
+.header-right{
+    width: 820px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    line-height: 87px;
+}
+
+.header-longin-link{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+.header-longin-link:hover{
+    text-decoration: underline;
+}
+
+.header-login-button{
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    color: #181818;
+}
+
+.content-left{
+    background-color: rgb(212, 184, 188);
+    width: 800px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 500px;
+}
+.content-right{
+    background-color: plum;
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 500px;
+}
+
+.logoimg{
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
+    width: 170px;
+}
+
+.header-container{
+    background-color: red;
+}
+
+.menu-left{
+    display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
+
+.menu-right{
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.menu{
+    height: 87px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 70px;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #181818;
+}
+
+.menu ul li a:hover{
+    color: #e8280b;
+}
+
+.menu-container{
+    border-bottom: 1px solid #d0d0d0;
+    margin-bottom: 25px;
+}
+
+.search-input{
+    margin-top: 22px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 13px;
+}
